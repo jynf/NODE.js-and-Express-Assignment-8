@@ -9,7 +9,8 @@ ex http://localhost:3000/api/resources/1
 
 GET /api/resources	200 OK       -displayed all resources  
 
-GET /api/resources/1	200 OK	  -{
+GET /api/resources/1	200 OK	  
+{
     "id": 1,
     "name": "Desktop",
     "category": "Computer"
@@ -23,6 +24,7 @@ PUT /api/resources/1	200 OK
     "name": "Gaming Laptop",
     "category": "Computers"
 }  
+  
 DELETE /api/resources/2	200 OK	[Fill after testing]  
     "message": "Resource deleted successfully",
     "resource": {
