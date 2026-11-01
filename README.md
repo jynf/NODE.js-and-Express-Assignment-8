@@ -7,8 +7,7 @@ use  http://localhost:3000/api/resources/# for specific element IDs,
 
 ex http://localhost:3000/api/resources/1  
 
-Test	Request	Expected Result	Actual Result
-ET /api/resources	200 OK        -displayed all resources  
+GET /api/resources	200 OK       -displayed all resources  
 
 GET /api/resources/1	200 OK	  -{
     "id": 1,
