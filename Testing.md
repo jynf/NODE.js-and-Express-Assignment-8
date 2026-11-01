@@ -16,7 +16,7 @@ POST /api/resources	    --201 Created
     "category": "Clothing"
 }  
 
-PUT /api/resources/1	--200 OK  
+PUT /api/resources/2	--200 OK  
 {
     "id": 1,
     "name": "Gaming Laptop",
