@@ -1,15 +1,15 @@
 const express = require("express");
 const app = express();
 const PORT = 3000;
+//http://localhost:3000/api/resources  - address
 
-// Middleware: Parse incoming JSON
+// Middleware - parse JSON
 app.use(express.json());
 
-// In-memory resource collection
 let resources = [
-    { id: 1, name: "Laptop", category: "Electronics" },
-    { id: 2, name: "Notebook", category: "Stationery" },
-    { id: 3, name: "Desktop", category: "Electronics" },
+    { id: 1, name: "Desktop", category: "Computer" },
+    { id: 2, name: "Shirt", category: "Clothing" },
+    { id: 3, name: "Laptop", category: "Computer" },
     { id: 4, name: "TV", category: "Electronics" }
 
 ];
